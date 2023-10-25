@@ -3,4 +3,3 @@ function add(a, b) {
   console.log(value);
 }
 add(1, 2);
-とまと;
