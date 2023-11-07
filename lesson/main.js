@@ -44,10 +44,11 @@ let add1 = (a, b, c) => {
 
 console.log(add1(1, 2, 3));
 
-let subtract = (callback) => {
-  callback();
+let subtract = (a, b, callback) => {
+  let result = a - b;
+  callback(result);
 };
 
-subtract(() => {
-  console.log(`hello`);
+subtract(10, 3, (result) => {
+  console.log(result);
 });
