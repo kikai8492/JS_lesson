@@ -52,3 +52,5 @@ let subtract = (a, b, callback) => {
 subtract(10, 3, (result) => {
   console.log(result);
 });
+
+globalThis.name = `kikai`;
