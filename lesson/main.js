@@ -1,3 +1,9 @@
+"use strict";
+function sayTomato() {
+  console.log(`tomato`);
+}
+sayTomato();
+
 function add(a, b) {
   return a + b;
 }
